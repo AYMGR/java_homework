@@ -32,9 +32,9 @@ public class PopulationProjection {
 
     // step3: calculate population increase of one year; and compute the total population after  input  x years
     int numOfCurrentPopulation = 312032486;
-    int secondsOfaYear = 31536000;
+    int secondsOfTheYear = 31536000;
     double NumberOfPeopleAddedPerSecond = (1.0 / 7 + 1.0 / 45) - 1.0 / 13;
-    double NumberOfPeopleIncreasedEachYear = NumberOfPeopleAddedPerSecond * secondsOfaYear;
+    double NumberOfPeopleIncreasedEachYear = NumberOfPeopleAddedPerSecond * secondsOfTheYear;
     double TheTotalPopulationInYears = years * NumberOfPeopleIncreasedEachYear +numOfCurrentPopulation;
 
     // step4: Display the final population

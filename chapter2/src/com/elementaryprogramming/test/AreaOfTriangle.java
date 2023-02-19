@@ -9,7 +9,7 @@ import java.util.Scanner;
  *                  s = (side1 + side2 + side3) / 2;
  *                  area = pow(s(s - side1)(s - side2)(s - side3), 2)
  */
-public class AreaOfATriangle {
+public class AreaOfTriangle {
 
   public static void main(String[] args) {
     // step1: Create a Scanner Object

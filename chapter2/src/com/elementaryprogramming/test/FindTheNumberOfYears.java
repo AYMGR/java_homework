@@ -19,11 +19,11 @@ public class FindTheNumberOfYears {
     long minutes = input.nextLong();
 
     // convert minutes to maximum number of year and days
-    int minutesOfAYear = 60 * 24 * 365;
-    int minutesOfADay = 60 * 24;
+    int minutesPerYear = 60 * 24 * 365;
+    int minutesPerDay = 60 * 24;
 
-    long years = minutes / minutesOfAYear;
-    long days = minutes / minutesOfADay - years * 365;
+    long years = minutes / minutesPerYear;
+    long days = minutes / minutesPerDay - years * 365;
 
     // displays the maximum number of years and remaining days for the minutes
     System.out.println(minutes + " minutes is approximately " + years + " years " + " and " + days + " days");

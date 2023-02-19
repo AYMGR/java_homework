@@ -9,7 +9,7 @@ package com.elementaryprogramming.test;
  *    4   5   1024
  *    5   6   15625
  */
-public class PrintATable {
+public class PrintTable {
 
   public static void main(String[] args) {
     int a = 0;

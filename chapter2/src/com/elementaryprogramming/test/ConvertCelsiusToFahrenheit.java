@@ -17,13 +17,13 @@ public class ConvertCelsiusToFahrenheit {
     Scanner input = new Scanner(System.in);
     // step2: Prompt user to enter a degree in Celsius
     System.out.print("Enter a degree in Celsius: ");
-    double Celsius = input.nextDouble();
+    double celsius = input.nextDouble();
 
     // step3: converts celsius to Fahrenheit
-    double Fahrenheit = (9.0 / 5) * Celsius + 32;
+    double fahrenheit = (9.0 / 5) * celsius + 32;
 
     // step4: displays the result
-    System.out.println(Celsius + " Celsius is " + Fahrenheit + " Fahrenheit");
+    System.out.println(celsius + " Celsius is " + fahrenheit + " Fahrenheit");
   }
 
 

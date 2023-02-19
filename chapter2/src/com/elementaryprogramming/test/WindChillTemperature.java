@@ -24,12 +24,12 @@ public class WindChillTemperature {
 
     // step2: Prompt the user to enter a temperature between -58°F and 41°F and a wind speed greater than or equal to 2
     System.out.print("Enter the temperature in Fahrenheit between -58°F and 41°F: ");
-    double FahrenheitTemperature = input.nextDouble();
+    double fahrenheitTemperature = input.nextDouble();
     System.out.print("Enter the wind speed (>= 2) in miles per hour: ");
     double windSpeed = input.nextDouble();
 
     // step3: Compute the wind-chill temperature
-    double outsideTemperature = FahrenheitTemperature;
+    double outsideTemperature = fahrenheitTemperature;
     double v = windSpeed;
     double windChillTemperature = 35.74 + (0.6215 * outsideTemperature) - (35.75 * Math.pow(v, 0.16)) + (0.4275 * outsideTemperature * Math.pow(v, 0.16));
 

@@ -33,11 +33,11 @@ public class CalculatingEnergy {
 
 
 //    step3: Compute the energy by the formula
-    double M = amountOfWater;
-    double Q = M * (finalTemperature - initialTemperature) * 4184;
+    double m = amountOfWater;
+    double q = m * (finalTemperature - initialTemperature) * 4184;
 
 //    step5: Display the energy needed to heat water from an initial temperature to a final temperature
-    System.out.println("The energy needed to heat water from an initial temperature to a final temperature is: " + Q + "\tjoules");
+    System.out.println("The energy needed to heat water from an initial temperature to a final temperature is: " + q + "\tjoules");
 
   }
 

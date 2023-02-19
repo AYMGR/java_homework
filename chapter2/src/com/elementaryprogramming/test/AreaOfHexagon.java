@@ -12,7 +12,7 @@ import java.util.Scanner;
  *          Enter the length of the side: 5.5
  *          The area of the hexagon is 78.5918
  */
-public class AreaOfAHexagon {
+public class AreaOfHexagon {
 
   public static void main(String[] args) {
     // step1: Create a Scanner Object
@@ -20,13 +20,13 @@ public class AreaOfAHexagon {
 
     // step2: prompts the user to enter the side of a hexagon
     System.out.print("Enter the length of the side: ");
-    double sideOfaHexagon = input.nextDouble();
+    double sideOfHexagon = input.nextDouble();
 
     // step3: computing the area of a hexagon
-    double s = sideOfaHexagon;
-    double Area = ((3 * Math.pow(3, 0.5)) * s * s) / 2;
+    double s = sideOfHexagon;
+    double area = ((3 * Math.pow(3, 0.5)) * s * s) / 2;
 
     // step4: Display its area
-    System.out.println("The area of the hexagon is: " + Area);
+    System.out.println("The area of the hexagon is: " + area);
   }
 }

@@ -27,10 +27,10 @@ public class ComputingBMI {
     //        convert pounds to kilograms, inches to meters
     double kg = pounds * 0.45359237;
     double meters = inches * 0.0254;
-    double BMI = kg / (meters * meters);
+    double bmi = kg / (meters * meters);
 
     // step4: displays the BMI
-    System.out.println("BMI is " + BMI);
+    System.out.println("BMI is " + bmi);
   }
 
 }
